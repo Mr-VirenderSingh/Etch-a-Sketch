@@ -20,7 +20,7 @@ function inputUser() {
 }
 
 function validateInput(input) {
-  if (input === "" || input > 64 || input < 2 || isNaN(input)) {
+  if (input === "" || input > 100 || input < 2 || isNaN(input)) {
     return alert(`invalid number.`);
   } else {
     create_div(input, input);
