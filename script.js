@@ -15,7 +15,7 @@ function inputUser() {
   while (container_div.firstChild) {
     container_div.removeChild(container_div.firstChild);
   }
-  let inputUser = prompt(`choose number between 2 to 100`);
+  let inputUser = prompt(`choose number from 2 to 64`);
   validateInput(inputUser);
 }
 
